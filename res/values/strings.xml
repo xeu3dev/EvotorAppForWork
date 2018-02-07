@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EvotorAppForWork</string>
+    <string name="app_description">This is Evotor test app</string>
+    <string name="device_info">Information about this device</string>
+    <string name="result">Result</string>
+    <string name="get_imei">Get IMEI</string>
+    <string name="get_model">Get model</string>
+    <string name="get_evotor_pos">Get Evotor POS version</string>
+    <string name="get_version">Get version</string>
+    <string name="copy">COPY</string>
+    <string name="clear">CLEAR</string>
+</resources>
