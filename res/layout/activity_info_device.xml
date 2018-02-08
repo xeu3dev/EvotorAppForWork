@@ -44,15 +44,37 @@
         android:layout_height="wrap_content"
         android:text="@string/get_model" />
     <Button
-        android:id="@+id/get_evotor_pos_button"
+        android:id="@+id/get_POS_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/get_evotor_pos" />
+        android:text="@string/get_POS" />
     <Button
-        android:id="@+id/get_version"
+        android:id="@+id/get_wall_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/get_version" />
+        android:text="@string/get_wall" />
+    <Button
+        android:id="@+id/get_SS_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_SS" />
+    <Button
+        android:id="@+id/get_DS_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_DS" />
+
+    <Button
+        android:id="@+id/get_installed_apps_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/get_installed_apps" />
+    <Button
+        android:id="@+id/get_android_version_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_android_version" />
 
 
 </LinearLayout>

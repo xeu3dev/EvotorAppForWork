@@ -5,8 +5,12 @@
     <string name="result">Result</string>
     <string name="get_imei">Get IMEI</string>
     <string name="get_model">Get model</string>
-    <string name="get_evotor_pos">Get Evotor POS version</string>
-    <string name="get_version">Get version</string>
+    <string name="get_POS">Get pos</string>
+    <string name="get_wall">Get EvoWall</string>
+    <string name="get_SS">Get system service</string>
+    <string name="get_DS">Get device service</string>
+    <string name="get_installed_apps">Get installed apps</string>
+    <string name="get_android_version">Get Android version</string>
     <string name="copy">COPY</string>
     <string name="clear">CLEAR</string>
 </resources>
