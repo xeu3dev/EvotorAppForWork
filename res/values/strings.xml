@@ -11,6 +11,7 @@
     <string name="get_DS">Get device service</string>
     <string name="get_installed_apps">Get installed apps</string>
     <string name="get_android_version">Get Android version</string>
+    <string name="send_result">Send Result to...</string>
     <string name="copy">COPY</string>
     <string name="copied">Copied!</string>
     <string name="clear">CLEAR</string>

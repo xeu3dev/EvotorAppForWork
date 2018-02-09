@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sprischepko.evotorappforwork">
 
+    // Доступ в интернет
+    <uses-permission android:name="android.permission.INTERNET"
     // Получение информации о телефоне
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />

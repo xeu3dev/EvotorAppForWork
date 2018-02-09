@@ -21,6 +21,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
     TextView ResultView;
     Button Clear;
     Button Copy;
+    Button Send;
     Button GetImei;
     Button GetModel;
     Button GetPOS;
@@ -31,8 +32,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
     Button GetVersion;
     String Result;
     TelephonyManager TelephonyManager;
-    PackageInfo packageInfo;
-    PackageInfo packageInfo_wall;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +50,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
         GetVersion = findViewById(R.id.get_android_version_button);
         Clear = findViewById(R.id.clear_result_button);
         Copy = findViewById(R.id.copy_result_button);
+        Send = findViewById(R.id.send_result);
 
         // Clear Button
         Clear.setOnClickListener(new View.OnClickListener(){
@@ -68,7 +69,21 @@ public class InfoDeviceActivity extends AppCompatActivity {
                 clipboard.setPrimaryClip(clip);
                 Toast toast = Toast.makeText(getApplicationContext(), R.string.copied, Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.TOP, 0, 0);
-                toast.show();;
+                toast.show();
+            }
+        });
+
+        // Send Button
+        Send.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v) {
+            String text = ResultView.getText().toString();
+            if(text.isEmpty()) return;
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT, text);
+            sendIntent.setType("text/plain");
+            startActivity(sendIntent);
             }
         });
 
