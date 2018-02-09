@@ -10,9 +10,11 @@ import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class InfoDeviceActivity extends AppCompatActivity {
@@ -64,6 +66,9 @@ public class InfoDeviceActivity extends AppCompatActivity {
                 ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
                 ClipData clip = ClipData.newPlainText("", ResultView.getText().toString());
                 clipboard.setPrimaryClip(clip);
+                Toast toast = Toast.makeText(getApplicationContext(), R.string.copied, Toast.LENGTH_SHORT);
+                toast.setGravity(Gravity.TOP, 0, 0);
+                toast.show();;
             }
         });
 
