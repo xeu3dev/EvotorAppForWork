@@ -1,14 +1,18 @@
 # EvotorAppForWork
 My Evotor application for work
 
-Main screen version 1.1
+Main screen version 1.2
 
-<img src="https://lh3.googleusercontent.com/0PSugdaAC9TvJ9g_2xfhpmUXizT3-DbcLxDiLOhFb1P-7YnMlWeFYt5zJpXNGCzzWC2nkXv4OZrAweLK4_iN0LZmvDHoqF555pKxda6YRvdPGWv_TSIot2e2rKfkMRXtL084vsv1Nh6zlDExJmYslahBUcu4LYmVhggBLMVZykpjW04Btf5Iy-6_7PYJIYrtbsERirZasXCktbyBmDYZjsTgwMNqqgp2B-hF6QhNlPyWgH76nBWabf6LHMpHFqnWwZXGWxglSmp-mBeUprr5is7iKc_dQANPPLuBcuq4oKFg_jvfhvj5_iIUX3EHNMvrGekzj7fi3aaPGX_dPBlwOAwRVaYfIJ-pT80nGICVbWfVlAW7siJCopjEw_Ytkefz2hnqW_Y9esF0fBoa8FiaZXMtIX2p4UEA0gX6oofEnyrRu4rCNFPMNB66tpXrRNMKrSN_FapuFimQYS4k-td3Jg2ksCdx8-OBYuDf0gwsPryaHrfnuDtNYwlBzx7lBKPsTEjICfLb7aakYWoM01hED5XOjXvULFwMVnBFccn4Pji6TlQ6oK0aQiGi6CtxLBUG-RmU3moypcN0ZWmSaCTO6dXuKZrsQzd1FJbNkA=w585-h998-no" width="270" height="480"/>
+<img src="https://pp.userapi.com/c834300/v834300561/b786e/G4Cfg3vLInY.jpg" width="270" height="480"/>
 
 Device information screen ver 1.3
 
-<img src="https://lh3.googleusercontent.com/By3nvYb7Jt9Aw6-IrUSbTPxefC4il531pkUao9C5ImnwmJ6CXi4RAv47XqAOqxZH0JWiTilYGB8CsRKwulmU6qQtoHSGln6PWJgqLVabmvhRhAfIv7uxKofmRR8kH8-BeblIp3t0nWcGcnAOXq9Rt2HK8x_Zlz16QlGrFtDAFpRfg6tmX3aFSV2NTUejynuP-zVwUxuDjN6RnaH7aJqkoGVaTkgxIKYTTTslRJrEmi5qLL09s6sKDlsPhwXLm6ckgyuzS8pQu-hCkz8ul14SMSypnvTjtHesbH-r561qbxkq1XdGyZN1k-fu4lH0DB_dP45ymkfh7Sdz2p9StD1vYvSGmrsBNDM7m-CmG9_MkZXNtV2YpJiqBoaB8ut0XjGRERZ98ymVFx2IOBpV7PuVStcCNEXp4BUnasONE68geevuf6CutXwHaNC4Xu2cipqEEPMoGHwCtVVPXLdYHZpPpBBEBzsH7MGclB5lMSwRh4ju3LBiJLCV6PpHLfO8F_BXWdBRghNMiYtOq02M-se5FKNbSPrV9rirF7iGVSWisI37fqgrmetxQnldHXVT6yQpQFabNZb1RUVNwEfXtB2DXI5dVf_dX-vei-czFQ=w587-h999-no" width="270" height="480"/>
+<img src="https://pp.userapi.com/c841338/v841338561/6b4ef/pPwf7KYpxAY.jpg" width="270" height="480"/>
 
 Installed apps screen ver 1.1
 
-<img src="https://lh3.googleusercontent.com/2X5442zwPCOEzdDr0L28M-0GX2o3cSThVSCBJ-zXGMT1mZ0rFlTb9b5WiMeYIJBfnJCiSJt4702DyC1lI5NJcX7OHFdQcMCFIQ306A1D80e5lGOwDNGi-fp4dgv_zcUBBfm8YG-ud_Xh96RZ8dMCl-noUfreqAu55uBvIPjyVcM9nZF0DoqMrLzCR-msqCew0zZD2Q7YVc1vg8LE2fHg9IeBPteB4LXAolFACGrv2-mbf0w6u_GHX-xUoAEpmT98mqkqk7aBX-XEFJ3YbjRRVEOZuYPP5iL2aeJI9222OGDPMCMF4yHGQr7uGx4GkoYqgh69GTKmjIA6rIz07duM0pRLfm_4wl60QmthFI7Sse1aePXvAwxZi9B-qenaJB94cXYsH6LCce3NNdow2GlsthrvBSz2KRWtymwcW4npubW1Va6qzPZxuG6Vx3ho-Cj4-qVf0S6IcwT_qW5ZweyEIDo7DW016QE7mh1JkI2X2HbhqD1_k-gRA6KtjC0RXkGVSNjfrNOhEQ94kE-JVzJlnUnCfEKVY42kFFdPHUS8TnL53lkRqiKIpEY8FdKXQdPnVWZyaSFbKvzNdoDaPEImw_P14KIQWY67RG9gXg=w585-h998-no" width="270" height="480"/>
+<img src="https://pp.userapi.com/c824604/v824604561/b8328/v1OTtUKwFnk.jpg" width="270" height="480"/>
+
+Custom cash check screen 1.1
+
+<img src="https://pp.userapi.com/c824604/v824604561/b8328/v1OTtUKwFnk.jpg" width="270" height="480"/>
