@@ -16,4 +16,8 @@ public class MainActivityEvotor extends AppCompatActivity {
         Intent intent = new Intent(MainActivityEvotor.this, InfoDeviceActivity.class);
         startActivity(intent);
     }
+    public void onClickCustomCheck(View view){
+        Intent intent = new Intent(MainActivityEvotor.this,CheckSettingsActivity.class);
+        startActivity(intent);
+    }
 }

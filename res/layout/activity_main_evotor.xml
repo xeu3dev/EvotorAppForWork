@@ -20,5 +20,11 @@
         android:layout_gravity="center"
         android:text="@string/device_info"
         android:onClick="onClickDeviceInfo"/>
-
+    <Button
+        android:id="@+id/custom_cash_ckeck_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/custom_cash_check"
+        android:onClick="onClickCustomCheck"/>
 </LinearLayout>

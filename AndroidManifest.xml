@@ -1,47 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sprischepko.evotorappforwork">
+package="com.example.sprischepko.evotorappforwork">
 
-    // Доступ в интернет
-    <uses-permission android:name="android.permission.INTERNET"
-    // Получение информации о телефоне
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+// Доступ в интернет
+<uses-permission android:name="android.permission.INTERNET"/>
+// Для печати
+<uses-permission android:name="android.permission.ru.evotor.permission.receipt.printExtra.SET"/>
+// Получение информации об устройстве
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        // UUID номер приложения в системе Эвотор. Вкладка APK приложения в ЛК
+
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    // UUID номер приложения в системе Эвотор. Вкладка APK приложения в ЛК
+    <meta-data
+        android:name="app_uuid"
+        android:value="d80b8c2d-c709-4de5-8b19-53330b90fa84" />
+
+    <activity android:name=".MainActivityEvotor">
+
+        // Фон, на котором отображается иконка приложения
         <meta-data
-            android:name="app_uuid"
-            android:value="d80b8c2d-c709-4de5-8b19-53330b90fa84" />
+            android:name="ru.evotor.launcher.BACKGROUND_COLOR"
+            android:value="#FF0000" />
 
-        <activity android:name=".MainActivityEvotor">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-            // Фон, на котором отображается иконка приложения
-            <meta-data
-                android:name="ru.evotor.launcher.BACKGROUND_COLOR"
-                android:value="#FF0000" />
+            <category android:name="android.intent.category.LAUNCHER" />
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            // Замена кнопки Продажа в интерфейсе терминала
+            <action android:name="ru.evotor.intent.action.SELL_MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+            <category android:name="android.intent.category.EVOTOR" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".InfoDeviceActivity" />
+    <activity android:name=".VersionAppsActivity"></activity>
+    <activity android:name=".CheckSettingsActivity"></activity>
+</application>
 
-                // Замена кнопки Продажа в интерфейсе терминала
-                <action android:name="ru.evotor.intent.action.SELL_MAIN" />
-                <category android:name="android.intent.category.EVOTOR" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".InfoDeviceActivity" />
-        <activity android:name=".VersionAppsActivity"></activity>
-    </application>
 
 </manifest>
