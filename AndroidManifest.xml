@@ -29,7 +29,7 @@ package="com.example.sprischepko.evotorappforwork">
         // Фон, на котором отображается иконка приложения
         <meta-data
             android:name="ru.evotor.launcher.BACKGROUND_COLOR"
-            android:value="#FF0000" />
+            android:value="@color/Red" />
 
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
