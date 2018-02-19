@@ -10,6 +10,7 @@ import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -56,6 +57,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
         Clear.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+                Log.d("TAG", "Clear Button");
                 ResultView.setText("");
             }
         });
@@ -64,6 +66,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
         Copy.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+                Log.d("TAG", "Copy Button");
                 ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
                 ClipData clip = ClipData.newPlainText("", ResultView.getText().toString());
                 clipboard.setPrimaryClip(clip);
@@ -77,6 +80,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
         Send.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
+                Log.d("TAG", "Send Button");
             String text = ResultView.getText().toString();
             if(text.isEmpty()) return;
             Intent sendIntent = new Intent();
@@ -93,6 +97,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+                Log.d("TAG", "IMEI Button");
                 Result = TelephonyManager.getDeviceId();
                 ResultView.setText(Result);
             }
@@ -102,6 +107,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
         GetModel.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v){
+                Log.d("TAG", "Model Button");
                 Result = android.os.Build.MODEL;
                 ResultView.setText(Result);
             }
@@ -118,6 +124,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
         GetPOS.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
+                Log.d("TAG", "POS Button");
                 Result = finalPackageInfoPOS.versionName;
                 ResultView.setText(Result);
                 }
@@ -133,6 +140,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
         GetWall.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
+                Log.d("TAG", "EvoWall Button");
                 Result = finalPackageInfoWall.versionName;
                 ResultView.setText(Result);
             }
@@ -148,6 +156,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
         GetSS.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
+                Log.d("TAG", "System service Button");
                 Result = finalPackageInfoSS.versionName;
                 ResultView.setText(Result);
             }
@@ -163,6 +172,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
         GetDS.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
+                Log.d("TAG", "Device service Button");
                 Result = finalPackageInfoDS.versionName;
                 ResultView.setText(Result);
             }
@@ -172,6 +182,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
         GetInstalledApps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.d("TAG", "Installed apps Button");
                 Intent intent = new Intent(InfoDeviceActivity.this, VersionAppsActivity.class);
                 startActivity(intent);
             }
@@ -181,6 +192,7 @@ public class InfoDeviceActivity extends AppCompatActivity {
         GetVersion.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v){
+                Log.d("TAG", "Version Button");
                 Result = Build.VERSION.RELEASE;
                 ResultView.setText(Result);
             }
