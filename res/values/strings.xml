@@ -3,6 +3,7 @@
     <string name="app_description">This is Evotor test app</string>
     <string name="device_info">Information about this device</string>
     <string name="custom_cash_check">Custom cash check</string>
+    <string name="cash_register">Сash register</string>
     <string name="print">Print</string>
     <string name="Value">Value</string>
     <string name="result">Result</string>

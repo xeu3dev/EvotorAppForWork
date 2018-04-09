@@ -27,4 +27,11 @@
         android:layout_gravity="center"
         android:text="@string/custom_cash_check"
         android:onClick="onClickCustomCheck"/>
+    <Button
+        android:id="@+id/cash_register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/cash_register"
+        android:onClick="onClickCashRegister"/>
 </LinearLayout>

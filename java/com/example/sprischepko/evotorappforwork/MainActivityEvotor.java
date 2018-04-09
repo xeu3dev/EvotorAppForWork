@@ -24,4 +24,10 @@ public class MainActivityEvotor extends AppCompatActivity {
         startActivity(intent);
         Log.d("TAG", "Click Custom Check");
     }
+    public void onClickCashRegister(View view){
+        Intent intent = new Intent(MainActivityEvotor.this,CashRegisterActivity.class);
+        startActivity(intent);
+        Log.d("TAG", "Click Custom Check");
+
+    }
 }

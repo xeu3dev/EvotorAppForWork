@@ -76,6 +76,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/holo_red_dark"
         android:text="@string/get_installed_apps" />
+
     <Button
         android:id="@+id/get_android_version_button"
         android:layout_width="match_parent"
