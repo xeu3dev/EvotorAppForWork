@@ -1,9 +1,9 @@
 # EvotorAppForWork
 My Evotor application for work
 
-Main screen version 1.2
+Main screen version 1.3
 
-<img src="https://pp.userapi.com/c834300/v834300561/b786e/G4Cfg3vLInY.jpg" width="270" height="480"/>
+<img src="https://pp.userapi.com/c831109/v831109889/d4b52/qjDo7r0qwyE.jpg" width="270" height="480"/>
 
 Device information screen ver 1.3
 
